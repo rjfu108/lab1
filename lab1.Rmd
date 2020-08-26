@@ -213,8 +213,7 @@ Use the `lm` function as described in class to fit a linear model with `Apps` as
 
 ```{r}
 # add lm code here
-# 
-# mymodel = lm(Apps ~ XXX, data=College)
+mymodel = lm(Apps ~ Private+Accept+Elite, data=College)
 ```
 
 
@@ -222,7 +221,7 @@ For the fitted model, produce diagnostic plots
 
 ```{r}
 # add diagnostic plots here
-# plot(mymodel)
+plot(mymodel)
 ```
 
 Discuss whether the model seems appropriate in terms of assumptions.
